@@ -1,11 +1,11 @@
 cask "tokemon" do
-  version "3.0.4"
-  sha256 "a18998a7770a06288269b72310247f11a7564273f6fef16f2ba037e5b134aadc"
+  version "1.9.2"
+  sha256 "ce82564ca416bd02d90d8064674e19dbdd0c2745df3c97c77808e68be4d352c7"
 
-  url "https://github.com/richyparr/tokemon/releases/download/v#{version}/Tokemon-#{version}.dmg"
+  url "https://github.com/richyparr/tokemon/releases/download/v#{version}/Tokemon.zip"
   name "Tokemon"
-  desc "Monitor Claude Code usage from your macOS menu bar"
-  homepage "https://github.com/richyparr/tokemon"
+  desc "Monitor your Claude usage from the macOS menu bar"
+  homepage "https://tokemon.ai"
 
   livecheck do
     url :url
